@@ -11,7 +11,7 @@
     "php": ">=7.2"
   },
   "require-dev": {
-    "easyswoole/swoole-ide-helper": "dev-master"
+    "eaglewu/swoole-ide-helper": "dev-master"
   },
   "authors": [
     {

@@ -22,7 +22,7 @@ class WsDebug
 	/**
 	 * @param \swoole_websocket_server $server
 	 */
-	public function setSwooleWebsocketServer( \swoole_websocket_server $server ) : void
+	public function setServer( \swoole_websocket_server $server ) : void
 	{
 		$this->server = $server;
 	}
@@ -52,7 +52,7 @@ class WsDebug
 						'type'    => $type,
 						'time'    => date( "Y-m-d H:i:s" ),
 						'content' => $message,
-					] );
+					]);
 					$server->push( $fd, $json_message );
 				}
 			}
