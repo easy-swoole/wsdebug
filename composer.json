@@ -1,0 +1,24 @@
+{
+  "name": "easyswoole/wsdebug",
+  "description": "debug",
+  "keywords": [
+    "swoole",
+    "framework",
+    "async",
+    "easyswoole",
+    "ezswoole"
+  ],
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "easyswoole/swoole-ide-helper": "dev-master"
+  },
+  "authors": [
+    {
+      "name": "韩文博",
+      "email": "9476400@qq.com"
+    }
+  ]
+}
