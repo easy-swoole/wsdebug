@@ -3,10 +3,8 @@
   "description": "debug",
   "keywords": [
     "swoole",
-    "framework",
-    "async",
     "easyswoole",
-    "ezswoole"
+    "debug"
   ],
   "license": "Apache-2.0",
   "require": {
